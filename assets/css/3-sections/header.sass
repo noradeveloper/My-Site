@@ -1,6 +1,5 @@
 .home-warp
   header
-    width: 100%
 
     .header-position
       position: fixed
@@ -13,16 +12,26 @@
       //justify-content: center
       justify-content: space-around
     .logo
-      +hide-text
+      //+hide-text
       background:
-       image: url(/assets/img/logo-n.svg)
-       repeat: no-repeat
-       position: center
-       size: contain
+        image: url(/assets/img/logo-n.svg)
+        repeat: no-repeat
+        position: center
+        size: contain
       width: 80px
       margin: 0
       padding: 0
-      float: left
+      //float: left
+      .name
+        float: right
+        text-transform: capitalize
+        margin-right: -140px
+        margin-top: 20px
+        p
+          margin-top: 0px
+          margin-bottom: 0px
+          color: #C59E2D
+
     .nav-site
        ul
          list-style-type: none
@@ -32,7 +41,10 @@
          li
            display: inline
            padding: 0 30px 0 20px
-
+    .lang
+      padding-top: 20px
+      a
+        padding-left: 10px
 
 @media (min-width: 775px)
   .mobile-nav-toggle
@@ -49,6 +61,12 @@
 
   .nav-site
     display: none
+
+  .lang
+    display: none
+  .logo
+    .name
+      display: none   
 
   .mobile-nav-toggle
     display: flex
