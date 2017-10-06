@@ -629,6 +629,40 @@ section.design {
     border-radius: 50%;
     object-fit: cover; }
 
+section.dev {
+  background-image: url(../img/dev-section.png);
+  background-position: center bottom;
+  background-size: cover;
+  color: white; }
+  section.dev .user {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; }
+
+section.article {
+  background-image: url(../img/articles-section.png);
+  background-position: center bottom;
+  background-size: cover; }
+  section.article .user {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; }
+
+section.contact {
+  background-image: url(../img/contact-section.png);
+  background-position: center bottom;
+  background-size: cover; }
+  section.contact .user {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; }
+
 .home-warp {
   display: -ms-flexbox;
   display: flex;
