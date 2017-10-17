@@ -1,18 +1,18 @@
+mixin design-img(link , img)
+  a(href="#{link}").design-img-link
+    img(src="assets/img/design-img/#{img}")
+
 section.design
   .flex.flex--center
     .col-50
-      img(src="http://placehold.it/400x200").user
-      img(src="http://placehold.it/400x200").user
-      img(src="http://placehold.it/400x200").user
-      img(src="http://placehold.it/400x200").user
-      img(src="http://placehold.it/400x200").user
-      img(src="http://placehold.it/400x200").user
+      +design-img('https://www.behance.net/','be-1.png')
+      +design-img('https://www.behance.net/','be-2.jpg')
+      +design-img('https://www.behance.net/','be-3.jpg')
+      +design-img('https://www.behance.net/','be-4.jpg')
+      +design-img('https://www.behance.net/','be-5.jpg')
+      +design-img('https://www.behance.net/','be-6.png')
 
     .col-50.flex.flex--center.order-first
       .col-1
-        p.home-lead Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Vestibulum consectetur lectus
-        tellus, quis sollicitudin eros ornare sit amet.
-        Fusce at leo et erat feugiat finibus ac quis
-        nisi.
-        a(herf="http://https://www.behance.net/").home-cta go to behance
+        p.home-lead you will always find my newest graphic design work and more on behance
+        a(href="https://www.behance.net/").home-cta see more on behance

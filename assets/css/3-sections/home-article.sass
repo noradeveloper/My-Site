@@ -1,12 +1,73 @@
 section.article
-  background:
-    image: url(../img/articles-section.png)
-    position: center bottom
-    size: cover
+    background:
+      image: url(../img/articles-section-2.jpg)
+      position: center bottom
+      size: cover
 
-  .user
-    display: inline
-    width: 150px
-    height: 150px
-    border-radius: 50%
-    object-fit: cover
+    .col-1
+      display: flex
+      align-items: center
+
+    .home-cta
+      color: white
+      background: #C59E2D
+
+    .article-warp
+      margin: -50px 0
+      +clearfix
+
+    .article-thumb
+      display: block
+      cursor: pointer
+      background:
+        size: cover
+        position: center
+      width: 33.33%
+      float: left
+      position: relative
+      z-index: 0
+      overflow: hidden
+
+
+      &:after
+        content: ''
+        display: block
+        padding-top: 100%
+    .article-meta
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      background: fade-out(#C59E2D, 0.3)
+      color: white
+      padding: 10px
+      transform: translate(0%, 100%) scale(0.5)
+      transition: all 200ms ease-in-out
+      opacity: 0
+
+
+      .name
+        font-size: 18px
+
+      .date
+        font-style: italic
+
+    .article-thumb:hover .article-meta
+      opacity: 1
+      transform: translate(0%, 0%) scale(1)
+
+@media (max-width: 775px)
+  .desc-wrap
+    margin-top: 50px
+
+  section.article .flex--center
+    justify-content: center
+
+
+
+
+@media (max-width: 1193px) and (min-width: 640px)
+  section.article
+    .article-thumb
+      width: 50%

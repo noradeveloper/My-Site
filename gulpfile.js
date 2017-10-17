@@ -57,9 +57,10 @@ gulp.task('sass', function () {
  gulp.task('jade',function(){
 	return gulp.src('_jadefiles/*.jade')
 	.pipe(jade())
-	.pipe(gulp.dest('_includes')); 
+	.pipe(gulp.dest('_includes'));
  });
- 
+
+
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync

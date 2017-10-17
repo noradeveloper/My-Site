@@ -11,6 +11,7 @@
       flex-direction: row
       //justify-content: center
       justify-content: space-around
+      z-index: 1
     .logo
       //+hide-text
       background:
@@ -44,7 +45,11 @@
     .lang
       padding-top: 20px
       a
-        padding-left: 10px
+        color: white
+        background: #C59E2D
+        border-radius: 5px
+        padding: 0.30em 0.30em
+        margin: 5px
 
 @media (min-width: 775px)
   .mobile-nav-toggle
@@ -66,7 +71,7 @@
     display: none
   .logo
     .name
-      display: none   
+      display: none
 
   .mobile-nav-toggle
     display: flex
