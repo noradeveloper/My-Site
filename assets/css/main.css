@@ -702,12 +702,10 @@ section.dev {
   background-position: center bottom;
   background-size: cover;
   color: white; }
-  section.dev .user {
-    display: inline;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover; }
+  section.dev h2 {
+    color: white; }
+  section.dev .home-cta {
+    margin-top: 80%; }
 
 section.article {
   background-image: url(../img/articles-section-2.jpg);
