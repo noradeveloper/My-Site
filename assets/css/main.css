@@ -594,13 +594,14 @@ body {
       -webkit-transform: rotate(-45deg);
               transform: rotate(-45deg); }
   .mobile-nav {
-    position: absolute;
+    position: fixed;
     width: 100%;
     background: white;
     padding: 100px 0 20px 0;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
-    transition: all 0.3s ease-in-out; }
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px; }
     .mobile-nav ul {
       list-style: none;
       margin: 0;
@@ -790,6 +791,11 @@ section.contact {
     font-size: 10px; }
   section.contact h1 {
     font-size: 16px; } }
+
+.about {
+  background-image: url(../img/articles-section-2.jpg);
+  background-position: center bottom;
+  background-size: cover; }
 
 .home-warp {
   display: -ms-flexbox;
