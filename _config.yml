@@ -3,3 +3,5 @@ markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 sass:
   style: compressed
+
+theme: jekyll-theme-tactile
