@@ -1,5 +1,6 @@
 name: Nora Salem
-baseurl: "/My-Site" 
+baseurl: "/My-Site"
+url: https://norahsalem.github.io
 markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 sass:
