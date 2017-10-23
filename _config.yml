@@ -1,5 +1,5 @@
 name: Nora Salem
-markdown: redcarpet
+markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 sass:
   style: compressed
