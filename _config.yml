@@ -1,4 +1,5 @@
 name: Nora Salem
+baseurl: "/My-Site" 
 markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 sass:
