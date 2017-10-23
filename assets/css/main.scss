@@ -1,21 +1,15 @@
 @import "0-tools/fonts";
 @import "0-tools/bourbon/bourbon";
 @import "0-tools/normalize";
-
 @import "1-base/vars";
 @import "1-base/base";
-
 @import "2-modules/buttons";
-
 @import "3-sections/header";
 @import "3-sections/footer";
-
-@import "3-sections/home-about";
-@import "3-sections/home-design";
-@import "3-sections/home-dev";
-@import "3-sections/home-article";
-@import "3-sections/home-contact";
-
+@import "3-sections/homeabout";
+@import "3-sections/homedesign";
+@import "3-sections/homedev";
+@import "3-sections/homearticle";
+@import "3-sections/homecontact";
 @import "3-sections/about";
-
 @import "4-layouts/home";
