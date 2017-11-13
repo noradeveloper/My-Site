@@ -5,13 +5,19 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>nora salem</title>
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="/assets/css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 	</head>
 	<body>
-
+		<header class="nav-warp">
+			{% include header.html %}
+		</header>
 		{{ content }}
-
-	  <script src="assets/js/functions.js"></script>
+		<footer class="footer-warp">
+			{% include footer.html %}
+		</footer>
+	  <script src="/assets/js/functions.js"></script>
 	</body>
 </html>

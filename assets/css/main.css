@@ -493,7 +493,7 @@ body {
     box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.4);
     cursor: pointer; }
 
-.home-warp header .header-position {
+.nav-warp header .header-position {
   position: fixed;
   background: white;
   border-bottom: 5px solid #C59E2D;
@@ -507,7 +507,7 @@ body {
       justify-content: space-around;
   z-index: 1; }
 
-.home-warp header .logo {
+.nav-warp header .logo {
   background-image: url(/assets/img/logo-n.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -515,27 +515,27 @@ body {
   width: 80px;
   margin: 0;
   padding: 0; }
-  .home-warp header .logo .name {
+  .nav-warp header .logo .name {
     float: right;
     text-transform: capitalize;
     margin-right: -140px;
     margin-top: 20px; }
-    .home-warp header .logo .name p {
+    .nav-warp header .logo .name p {
       margin-top: 0px;
       margin-bottom: 0px;
       color: #C59E2D; }
 
-.home-warp header .nav-site ul {
+.nav-warp header .nav-site ul {
   list-style-type: none;
   margin-left: 0;
   padding-top: 12px; }
-  .home-warp header .nav-site ul li {
+  .nav-warp header .nav-site ul li {
     display: inline;
     padding: 0 30px 0 20px; }
 
-.home-warp header .lang {
+.nav-warp header .lang {
   padding-top: 20px; }
-  .home-warp header .lang a {
+  .nav-warp header .lang a {
     color: white;
     background: #C59E2D;
     border-radius: 5px;
@@ -614,7 +614,7 @@ body {
     -webkit-transform: translateY(0%);
             transform: translateY(0%); } }
 
-.home-warp footer .footer-position {
+.footer-warp footer .footer-position {
   width: 100%;
   height: 100px;
   background: #000;
@@ -626,37 +626,37 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 
-.home-warp footer h1 {
+.footer-warp footer h1 {
   font-size: 20px;
   padding-top: 20px; }
 
-.home-warp footer .social-accounts ul {
+.footer-warp footer .social-accounts ul {
   list-style-type: none;
   margin-left: 0;
   padding-top: 12px; }
-  .home-warp footer .social-accounts ul li {
+  .footer-warp footer .social-accounts ul li {
     display: inline;
     padding: 0 30px 0 20px; }
-    .home-warp footer .social-accounts ul li .circle {
+    .footer-warp footer .social-accounts ul li .circle {
       border-radius: 5px;
       margin: 0.15em;
       font-size: 1.50em; }
-    .home-warp footer .social-accounts ul li .fa-instagram {
+    .footer-warp footer .social-accounts ul li .fa-instagram {
       color: white;
       background: #C59E2D;
       padding: 0.20em 0.20em; }
-    .home-warp footer .social-accounts ul li .fa-github {
+    .footer-warp footer .social-accounts ul li .fa-github {
       color: white;
       background: #C59E2D;
       padding: 0.20em 0.20em; }
-    .home-warp footer .social-accounts ul li .fa-twitter {
+    .footer-warp footer .social-accounts ul li .fa-twitter {
       color: white;
       background: #C59E2D;
       padding: 0.20em 0.20em; }
-    .home-warp footer .social-accounts ul li i {
+    .footer-warp footer .social-accounts ul li i {
       color: white;
       padding: 5px; }
-    .home-warp footer .social-accounts ul li a {
+    .footer-warp footer .social-accounts ul li a {
       color: white; }
 
 section.about {
@@ -795,7 +795,8 @@ section.contact {
 .about {
   background-image: url(../img/articles-section-2.jpg);
   background-position: center bottom;
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh; }
 
 .home-warp {
   display: -ms-flexbox;

@@ -1,11 +1,11 @@
 mixin nav-content()
   ul
-    li: a(href="home") home
-    li: a(href="about") about
-    li: a(href="designs") designs
-    li: a(href="projects") projects
-    li: a(href="articles") articles
-    li: a(href="contact") contact
+    li: a(href="#section-about") home
+    li: a(href="{{ site.pages["about.html"].permalink }}") about
+    li: a(href="#section-designs") designs
+    li: a(href="#section-projects") projects
+    li: a(href="#section-articles") articles
+    li: a(href="{{ site.baseurl }}{% link _includes/section-contact.html %}") contact
 
 .mobile-nav
   +nav-content()
